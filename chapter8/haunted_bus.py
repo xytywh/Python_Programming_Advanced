@@ -11,7 +11,6 @@ class HauntedBus:
         self.passengers.remove(name)
 
 
-
 bus1 = HauntedBus(['Alice', 'Bill'])
 print(bus1.passengers)
 bus1.pick('Charlie')
