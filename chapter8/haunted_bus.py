@@ -25,7 +25,8 @@ bus3.pick('Dave')
 print(bus2.passengers)
 print(bus2.passengers is bus3.passengers)
 print(bus1.passengers)
-bus4 = HauntedBus() # 默认参数经过前面的操作已经由[]变成了['Carrie', 'Dave']
+bus4 = HauntedBus()
+# 默认参数经过前面的操作已经由[]变成了['Carrie', 'Dave']，所以结果会是['Carrie', 'Dave']
 print(bus4.passengers)
 print(dir(HauntedBus.__init__))
 print(HauntedBus.__init__.__defaults__)
